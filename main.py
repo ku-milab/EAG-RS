@@ -14,11 +14,11 @@ def main(opt_):
     First_step(exp, Flag_sw=False)
     Second_step(exp, Flag_sw=False)
 
-    ''' Connection-wise relevance score estimation module '''
+    ''' Step 2. Connection-wise relevance score estimation module '''
     Evaluate_LRP(exp, Flag_sw=False)
     Extract_LRP_graph_feat(exp, Flag_sw=False)
 
-    ''' Diagnosis-informative ROI selection module and classifier '''
+    ''' Step 3. Diagnosis-informative ROI selection module and classifier '''
     Final_step(exp, Flag_sw=False)
 
 
