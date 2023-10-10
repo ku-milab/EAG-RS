@@ -25,7 +25,11 @@ To download the ABIDE dataset
 ## Usage
 For training:
 
-``
+
+
+```
+python main.py --gpu 0 --dataset 'ABIDE' --atlas 'HO' --remove_roi=0.1
+```
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://link.springer.com/chapter/10.1007/978-3-030-87196-3_27):
